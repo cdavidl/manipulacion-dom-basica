@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación básica del DOM</title>
+</head>
+<body>
+    <!-- <h1 class="verde">Manipulación básica del DOM</h1>
+    <p>Esto es un párrafo</p>
+    <p class="parrafo">Esto es un párrafo con clase</p>
+    <p id="parrafo">Esto es un párrafo con id</p>
+    <input placeholder="Escribe algo" value="123">
+    <script src="./script1.js"></script> -->
+
+    <h1>Manipulación básica del DOM</h1>
+    <form id="formulario">
+        <input type="number" id="input1" placeholder="Escribe algo">
+        <input type="number" onchange="console.log('Cambió el valor')" id="input2" placeholder="Escribe algo"> <!--uso de evento onchange-->
+        <!-- <button onclick="console.log('Click al botón')" id="calcular">Calcular</button> uso de evento onclick -->
+        <!-- <button onclick="btnClick()" id="calcular">Calcular</button> uso de evento onclick -->
+        <button id="calcular">Calcular</button> <!--sin uso de evento onclick. Si se agrega type="button" se puede replicar el mismo comportamiento con el click
+    </form>
+    <p id="resultado"></p>
+    <script src="./script2.js"></script>
+</body>
+</html>
